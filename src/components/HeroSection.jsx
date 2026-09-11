@@ -24,7 +24,7 @@ export default function HeroSection() {
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-800 leading-tight">
-              สวัสดีค่ะ, ดิฉัน <span className="text-emerald-700">{profileData.name}</span>
+             <span className="text-emerald-700">{profileData.nameEn}</span>
             </h1>
 
             {/* Subtitle */}
